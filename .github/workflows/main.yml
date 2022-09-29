@@ -28,7 +28,7 @@ jobs:
       with:
       node-version: 16
       - name: execute the script
-      - run:
+       run:
       node app.js
 
       # Runs a single command using the runners shell
